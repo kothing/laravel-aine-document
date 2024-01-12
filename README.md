@@ -1,2 +1,2 @@
-# AineCMS document
-AineCMS document
+# Aine document
+Aine CMS document

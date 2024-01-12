@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>ElmapiCMS Documentation</title>
+    <title>AineCMS Documentation</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ElmapiCMS Documentation">
-    <meta name="author" content="ElmapiCMS">    
+    <meta name="description" content="AineCMS Documentation">
+    <meta name="author" content="AineCMS">    
     <link rel="shortcut icon" href="favicon.ico"> 
     
     <!-- Google Font -->
@@ -36,12 +36,9 @@
 	                    <span></span>
 	                </button>
 	                <div class="site-logo">
-						<a class="navbar-brand" href="index.html"><span class="logo-text">ElmapiCMS<span class="text-alt">Docs</span> <small class="text-normal">v2.0.0</small></span></a>
+						<a class="navbar-brand" href="index.html"><span class="logo-text">AineCMS<span class="text-alt">Docs</span> <small class="text-normal">v1.0.0</small></span></a>
 					</div>    
                 </div><!--//docs-logo-wrapper-->
-	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-		            <a href="https://codecanyon.net/item/elmapicms-headless-cms-for-building-content-api/34931567" class="btn btn-primary d-none d-lg-flex">Purchase Elmapi</a>
-	            </div><!--//docs-top-utilities-->
             </div><!--//container-->
         </div><!--//branding-->
     </header><!--//header-->
@@ -148,7 +145,7 @@
                     <section class="docs-section" id="unzipping_files">
                         <h2 class="section-heading">Unzipping Files</h2>
                         <div>
-                            <p>After downloading the application unzip all files to your root folder and move all files inside <span class="elmapi">public</span>  folder to your <span class="elmapi">public_html</span> folder.</p>
+                            <p>After downloading the application unzip all files to your root folder and move all files inside <span class="aine">public</span>  folder to your <span class="aine">public_html</span> folder.</p>
 
                             It should look like this :
                         </p>
@@ -169,7 +166,7 @@
                     <section class="docs-section" id="permissions">
                         <h2 class="section-heading">Directory Permissions</h2>
                         <div>
-                            <p>Make sure your <span class="elmapi">storage</span> and the <span class="elmapi">bootstrap/cache</span> directories are writable.</p>
+                            <p>Make sure your <span class="aine">storage</span> and the <span class="aine">bootstrap/cache</span> directories are writable.</p>
 
                             <p>You can change directory permissions via terminal</p>
 
@@ -179,7 +176,7 @@
                     <section class="docs-section" id="configuration">
                         <h2 class="section-heading">Configure .env file</h2>
                         <div>
-                            <p><span class="elmapi">.env</span> file contains basic configuration for your application.</p>
+                            <p><span class="aine">.env</span> file contains basic configuration for your application.</p>
 
                             <p><strong>Change the Application URL</strong></p>
                             <pre><code class="language-plaintext">APP_URL=https://your-domain.com</code></pre>
@@ -188,7 +185,7 @@
                             <pre><code class="language-plaintext">DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=elmapicms
+DB_DATABASE=ainecms
 DB_USERNAME=user
 DB_PASSWORD=pass</code></pre>
 
@@ -200,7 +197,7 @@ DB_PASSWORD=pass</code></pre>
                         <h2 class="section-heading">Database</h2>
                         <div>
                             <p><strong>Import sql file</strong></p>
-                            <p>Import the <span class="elmapi">demo.sql</span> file into your database.</p>
+                            <p>Import the <span class="aine">demo.sql</span> file into your database.</p>
 
                             <p><strong>OR</strong></p>
 
@@ -224,7 +221,7 @@ Password: admin</code></pre>
                         <div>
                             <p>If you need another super admin account you can create a new one using terminal</p>
 
-                            <pre><code class="language-bash">php artisan elmapi:create_super name email password</code></pre>
+                            <pre><code class="language-bash">php artisan aine:create_super name email password</code></pre>
                         </div>
                     </section>
 			    </article>
